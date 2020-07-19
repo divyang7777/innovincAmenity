@@ -76,7 +76,7 @@ h1 {
 
 h2 {
   font-size: 4.0em;
-  color: #6bccef;
+  color: #d61818;
   font-family: 'AvenirNextLTPro-UltLt', Helvetica, Arial, sans-serif; }
 
 h3 {
@@ -115,18 +115,20 @@ p {
       line-height: 1.0em;
       margin-bottom: 0;
       padding: 20px 30px 18px 30px;
-      background-color: #81d4f1;
+      background-color: #d61818;
       text-decoration: none;
       text-transform: uppercase;
       letter-spacing: 0.05em; }
     .more .button a:hover {
       text-decoration: none;
-      background-color: #008fc2; }
+      background-color: #d61818; }
 
 section.main {
+  /* d61818 */
   width: 80%;
   padding: 0 10%;
-  background: transparent url("../i/grey-bg.png") top left repeat;
+  background: #000000c7
+  /* background: transparent url("../i/grey-bg.png") top left repeat; */
   /*  SECTIONS  */
   /*  COLUMN SETUP  */ }
   section.main header {
@@ -154,72 +156,47 @@ section.main {
         font-size: 0.95em;
         line-height: 1.0em;
         margin-bottom: 0; }
-    section.main .col .tn-fc a, section.main .col .tn-fc a:link, section.main .col .tn-fc a:active, section.main .col-even .tn-fc a, section.main .col-even .tn-fc a:link, section.main .col-even .tn-fc a:active {
-      background: transparent url("../i/tn-fc1.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-fc a .caption, section.main .col .tn-fc a:link .caption, section.main .col .tn-fc a:active .caption, section.main .col-even .tn-fc a .caption, section.main .col-even .tn-fc a:link .caption, section.main .col-even .tn-fc a:active .caption {
-        background: transparent url("../i/fc-blue80.png") top left repeat; }
-    section.main .col .tn-fc a:hover, section.main .col-even .tn-fc a:hover {
-      background: transparent url("../i/tn-fc2.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-fc a:hover .caption, section.main .col-even .tn-fc a:hover .caption {
-        background: transparent url("../i/fc-blue80.png") top left repeat; }
-    section.main .col .tn-sf a, section.main .col .tn-sf a:link, section.main .col .tn-sf a:active, section.main .col-even .tn-sf a, section.main .col-even .tn-sf a:link, section.main .col-even .tn-sf a:active {
-      background: transparent url("../i/tn-sf1.2.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-sf a .caption, section.main .col .tn-sf a:link .caption, section.main .col .tn-sf a:active .caption, section.main .col-even .tn-sf a .caption, section.main .col-even .tn-sf a:link .caption, section.main .col-even .tn-sf a:active .caption {
-        background: transparent url("../i/sf-green80.png") top left repeat; }
-    section.main .col .tn-sf a:hover, section.main .col-even .tn-sf a:hover {
-      background: transparent url("../i/tn-sf2.2.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-sf a:hover .caption, section.main .col-even .tn-sf a:hover .caption {
-        background: transparent url("../i/sf-green80.png") top left repeat; }
     section.main .col .tn-bb a, section.main .col .tn-bb a:link, section.main .col .tn-bb a:active, section.main .col-even .tn-bb a, section.main .col-even .tn-bb a:link, section.main .col-even .tn-bb a:active {
+      border-radius: 30px;
+      transition: all .3s ease-in-out;
       background: transparent url("../i/tn-bb1.1.jpg") top left no-repeat;
       background-size: 100%; }
       section.main .col .tn-bb a .caption, section.main .col .tn-bb a:link .caption, section.main .col .tn-bb a:active .caption, section.main .col-even .tn-bb a .caption, section.main .col-even .tn-bb a:link .caption, section.main .col-even .tn-bb a:active .caption {
+        border-radius: 30px;
+        transition: all .3s ease-in-out;
         background: transparent url("../i/bb-green80.png") top left repeat; }
     section.main .col .tn-bb a:hover, section.main .col-even .tn-bb a:hover {
+      transform: translate3d(0px, -15px, 0px);
       background: transparent url("../i/tn-bb2.1.jpg") top left no-repeat;
       background-size: 100%; }
       section.main .col .tn-bb a:hover .caption, section.main .col-even .tn-bb a:hover .caption {
         background: transparent url("../i/bb-green80.png") top left repeat; }
-    section.main .col .tn-iv a, section.main .col .tn-iv a:link, section.main .col .tn-iv a:active, section.main .col-even .tn-iv a, section.main .col-even .tn-iv a:link, section.main .col-even .tn-iv a:active {
-      background: transparent url("../i/tn-iv1.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-iv a .caption, section.main .col .tn-iv a:link .caption, section.main .col .tn-iv a:active .caption, section.main .col-even .tn-iv a .caption, section.main .col-even .tn-iv a:link .caption, section.main .col-even .tn-iv a:active .caption {
-        background: transparent url("../i/iv-red80.png") top left repeat; }
-    section.main .col .tn-iv a:hover, section.main .col-even .tn-iv a:hover {
-      background: transparent url("../i/tn-iv2.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-iv a:hover .caption, section.main .col-even .tn-iv a:hover .caption {
-        background: transparent url("../i/iv-red80.png") top left repeat; }
     section.main .col .tn-oc a, section.main .col .tn-oc a:link, section.main .col .tn-oc a:active, section.main .col-even .tn-oc a, section.main .col-even .tn-oc a:link, section.main .col-even .tn-oc a:active {
+      border-radius: 30px;
+      transition: all .3s ease-in-out;
       background: transparent url("../i/tn-oc1.jpg") top left no-repeat;
       background-size: 100%; }
       section.main .col .tn-oc a .caption, section.main .col .tn-oc a:link .caption, section.main .col .tn-oc a:active .caption, section.main .col-even .tn-oc a .caption, section.main .col-even .tn-oc a:link .caption, section.main .col-even .tn-oc a:active .caption {
+        border-radius: 30px;
+        transition: all .3s ease-in-out;
         background: transparent url("../i/oc-blue80.png") top left repeat; }
     section.main .col .tn-oc a:hover, section.main .col-even .tn-oc a:hover {
+      transform: translate3d(0px, -15px, 0px);
       background: transparent url("../i/tn-oc2.jpg") top left no-repeat;
       background-size: 100%; }
       section.main .col .tn-oc a:hover .caption, section.main .col-even .tn-oc a:hover .caption {
         background: transparent url("../i/oc-blue80.png") top left repeat; }
-    section.main .col .tn-cw a, section.main .col .tn-cw a:link, section.main .col .tn-cw a:active, section.main .col-even .tn-cw a, section.main .col-even .tn-cw a:link, section.main .col-even .tn-cw a:active {
-      background: transparent url("../i/tn-cw1.1.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-cw a .caption, section.main .col .tn-cw a:link .caption, section.main .col .tn-cw a:active .caption, section.main .col-even .tn-cw a .caption, section.main .col-even .tn-cw a:link .caption, section.main .col-even .tn-cw a:active .caption {
-        background: transparent url("../i/cw-orange80.png") top left repeat; }
-    section.main .col .tn-cw a:hover, section.main .col-even .tn-cw a:hover {
-      background: transparent url("../i/tn-cw2.1.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-cw a:hover .caption, section.main .col-even .tn-cw a:hover .caption {
-        background: transparent url("../i/cw-orange80.png") top left repeat; }
     section.main .col .tn-me a, section.main .col .tn-me a:link, section.main .col .tn-me a:active, section.main .col-even .tn-me a, section.main .col-even .tn-me a:link, section.main .col-even .tn-me a:active {
+      border-radius: 30px;
+      transition: all .3s ease-in-out;
       background: transparent url("../i/tn-me1.jpg") top left no-repeat;
       background-size: 100%; }
       section.main .col .tn-me a .caption, section.main .col .tn-me a:link .caption, section.main .col .tn-me a:active .caption, section.main .col-even .tn-me a .caption, section.main .col-even .tn-me a:link .caption, section.main .col-even .tn-me a:active .caption {
+        border-radius: 30px;
+        transition: all .3s ease-in-out;
         background: transparent url("../i/me-yellow80.png") top left repeat; }
     section.main .col .tn-me a:hover, section.main .col-even .tn-me a:hover {
+      transform: translate3d(0px, -15px, 0px);
       background: transparent url("../i/tn-me2.jpg") top left no-repeat;
       background-size: 100%; }
       section.main .col .tn-me a:hover .caption, section.main .col-even .tn-me a:hover .caption {
@@ -234,26 +211,6 @@ section.main {
       background-size: 100%; }
       section.main .col .tn-mi a:hover .caption, section.main .col-even .tn-mi a:hover .caption {
         background: transparent url("../i/mi-green80.png") top left repeat; }
-    section.main .col .tn-in a, section.main .col .tn-in a:link, section.main .col .tn-in a:active, section.main .col-even .tn-in a, section.main .col-even .tn-in a:link, section.main .col-even .tn-in a:active {
-      background: transparent url("../i/tn-in1.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-in a .caption, section.main .col .tn-in a:link .caption, section.main .col .tn-in a:active .caption, section.main .col-even .tn-in a .caption, section.main .col-even .tn-in a:link .caption, section.main .col-even .tn-in a:active .caption {
-        background: transparent url("../i/in-blue80.png") top left repeat; }
-    section.main .col .tn-in a:hover, section.main .col-even .tn-in a:hover {
-      background: transparent url("../i/tn-in2.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-in a:hover .caption, section.main .col-even .tn-in a:hover .caption {
-        background: transparent url("../i/in-blue80.png") top left repeat; }
-    section.main .col .tn-as a, section.main .col .tn-as a:link, section.main .col .tn-as a:active, section.main .col-even .tn-as a, section.main .col-even .tn-as a:link, section.main .col-even .tn-as a:active {
-      background: transparent url("../i/tn-as1.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-as a .caption, section.main .col .tn-as a:link .caption, section.main .col .tn-as a:active .caption, section.main .col-even .tn-as a .caption, section.main .col-even .tn-as a:link .caption, section.main .col-even .tn-as a:active .caption {
-        background: transparent url("../i/as-purple80.png") top left repeat; }
-    section.main .col .tn-as a:hover, section.main .col-even .tn-as a:hover {
-      background: transparent url("../i/tn-as2.jpg") top left no-repeat;
-      background-size: 100%; }
-      section.main .col .tn-as a:hover .caption, section.main .col-even .tn-as a:hover .caption {
-        background: transparent url("../i/as-purple80.png") top left repeat; }
   section.main .left {
     margin-left: 0; }
   section.main .col, section.main .col-even {
@@ -792,16 +749,19 @@ footer {
   clear: both;
   width: 66%;
   padding: 80px 17% 40px 17%;
-  background: transparent url("../i/main-light-blue-bg.png") top left repeat;
+  background: #d61818c2;
+  /* background: transparent url("../i/main-light-blue-bg.png") top left repeat; */
   font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;
   color: #051421;
   text-align: center; }
   footer a, footer a:link, footer a:active {
     font-family: 'AvenirNextLTPro-Medium', Helvetica, Arial, sans-serif;
-    color: #006b92;
+    transition: all .3s ease-in-out;
+    color: #000000d1;
     text-decoration: none; }
   footer a:hover {
-    color: #008fc2; }
+    font-size: 1.3em;
+    color: #ffffff; }
   footer .social {
     font-size: 2.4em; }
     footer .social a {
@@ -814,14 +774,19 @@ footer {
 .copyright {
   width: 60%;
   padding: 26px 20% 8px 20%;
-  background: transparent url("../i/main-darker-blue-bg.png") top left repeat;
+  /* background: transparent url("../i/main-darker-blue-bg.png") top left repeat; */
+  background: #000000d1;
   font-family: 'AvenirNextLTPro-Medium', Helvetica, Arial, sans-serif; }
   .copyright p {
     font-size: 0.9em;
+    transition: all .3s ease-in-out;
     line-height: 1.0em;
     margin-bottom: none;
-    color: #ffffff;
+    color: #d61818c2;
     text-align: center; }
+    .copyright p:hover  {
+      font-size: 1.2em;
+      color: #ffffff; }
 
 @media only screen and (min-width: 1025px) {
   section.main .col-even {
@@ -1056,7 +1021,7 @@ footer {
     padding: 26px 10% 8px 10%; } }
 @media only screen and (max-width: 1024px) {
   section.main .button a:hover {
-    background-color: #81d4f1; }
+    background-color: #d61818; }
 
   .about .description .more h2 {
     font-size: 3.0em;
@@ -1072,4 +1037,4 @@ footer {
     margin-top: 0; }
 
   footer a, footer a:link, footer a:active, footer a:hover {
-    color: #006b92; } }
+    color: #d61818; } }
