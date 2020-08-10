@@ -155,7 +155,7 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: #051421 url("../img/Back\ Background.jpg") top center no-repeat;
+  background: #051421 url("../img/Back\ Background.jpg") center center fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -211,32 +211,25 @@ p {
 }
 .services {
   /* color: #024a88; */
+  margin: 0 5%;
 }
 
 .services h2 {
   color: #ffffff;
   text-transform: uppercase;
   padding-bottom: 10px;
+  font-size: 2em;
 }
 .services p {
-  color: #d61818;
-  background-color: #000000e3;
-  padding: 10px 20px;
-  display: inline-block;
-  border-radius: 20px;
-  text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
-  line-height: 1em;
-}
-
-.services p:hover {
-  /* transform: translate3d(0px, -5px, 0px); */
-  color: #ffffff;
-  /* background-color: #ffffff; */
-  padding: 10px 20px;
-  display: inline-block;
-  /* border-radius: 10px; */
-  /* text-transform: uppercase; */
+  color: #ffffff; 
+  background-color: #000000ad;
+  padding: 20px 25px;
+    display: inline-block;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    line-height: 30px;
+    font-size: 1em;
 }
 
 .more .button {
@@ -263,12 +256,16 @@ p {
 
 section.main {
   /* d61818 */
-  width: 100%;
+  width: 80%;
   padding: 0 10%;
   background: #000000c7;
   /* background: transparent url("../i/grey-bg.png") top left repeat; */
   /*  SECTIONS  */
   /*  COLUMN SETUP  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 section.main header {
   text-align: center;
@@ -318,7 +315,7 @@ section.main .col .logo-stat a:active,
 section.main .col-even .logo-stat a,
 section.main .col-even .logo-stat a:link,
 section.main .col-even .logo-stat a:active {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/logoStat.jpg") top left no-repeat;
   background-size: 200%;
@@ -329,7 +326,7 @@ section.main .col .logo-stat a:active .caption,
 section.main .col-even .logo-stat a .caption,
 section.main .col-even .logo-stat a:link .caption,
 section.main .col-even .logo-stat a:active .caption {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: #c93438;
 }
@@ -350,7 +347,7 @@ section.main .col .hord a:active,
 section.main .col-even .hord a,
 section.main .col-even .hord a:link,
 section.main .col-even .hord a:active {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/hord.jpg") top left no-repeat;
   background-size: 200%;
@@ -361,7 +358,7 @@ section.main .col .hord a:active .caption,
 section.main .col-even .hord a .caption,
 section.main .col-even .hord a:link .caption,
 section.main .col-even .hord a:active .caption {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: #c93438;
 }
@@ -382,7 +379,7 @@ section.main .col .catlg a:active,
 section.main .col-even .catlg a,
 section.main .col-even .catlg a:link,
 section.main .col-even .catlg a:active {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/catlg.jpg") top left no-repeat;
   background-size: 200%;
@@ -393,7 +390,7 @@ section.main .col .catlg a:active .caption,
 section.main .col-even .catlg a .caption,
 section.main .col-even .catlg a:link .caption,
 section.main .col-even .catlg a:active .caption {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: #777777;
 }
@@ -414,7 +411,7 @@ section.main .col .pak-lab a:active,
 section.main .col-even .pak-lab a,
 section.main .col-even .pak-lab a:link,
 section.main .col-even .pak-lab a:active {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/packLab.jpg") top left no-repeat;
   background-size: 200%;
@@ -425,7 +422,7 @@ section.main .col .pak-lab a:active .caption,
 section.main .col-even .pak-lab a .caption,
 section.main .col-even .pak-lab a:link .caption,
 section.main .col-even .pak-lab a:active .caption {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: #c93438;
 }
@@ -446,7 +443,7 @@ section.main .col .soc-mark-post a:active,
 section.main .col-even .soc-mark-post a,
 section.main .col-even .soc-mark-post a:link,
 section.main .col-even .soc-mark-post a:active {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/social.jpg") top left no-repeat;
   background-size: 200%;
@@ -457,7 +454,7 @@ section.main .col .soc-mark-post a:active .caption,
 section.main .col-even .soc-mark-post a .caption,
 section.main .col-even .soc-mark-post a:link .caption,
 section.main .col-even .soc-mark-post a:active .caption {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: #777777;
 }
@@ -478,7 +475,7 @@ section.main .col .comp-port-newlatt a:active,
 section.main .col-even .comp-port-newlatt a,
 section.main .col-even .comp-port-newlatt a:link,
 section.main .col-even .comp-port-newlatt a:active {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/comp-newlatt") top left no-repeat;
   background-size: 200%;
@@ -489,7 +486,7 @@ section.main .col .comp-port-newlatt a:active .caption,
 section.main .col-even .comp-port-newlatt a .caption,
 section.main .col-even .comp-port-newlatt a:link .caption,
 section.main .col-even .comp-port-newlatt a:active .caption {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: #c93438;
 }
@@ -510,7 +507,7 @@ section.main .col .bro-lef-post a:active,
 section.main .col-even .bro-lef-post a,
 section.main .col-even .bro-lef-post a:link,
 section.main .col-even .bro-lef-post a:active {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/broLefPost.jpg") top left
     no-repeat;
@@ -522,7 +519,7 @@ section.main .col .bro-lef-post a:active .caption,
 section.main .col-even .bro-lef-post a .caption,
 section.main .col-even .bro-lef-post a:link .caption,
 section.main .col-even .bro-lef-post a:active .caption {
-  border-radius: 30px;
+  border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
   background: #777777;
 }
@@ -1400,7 +1397,7 @@ section.main .col-even {
 footer {
   clear: both;
   width: 100%;
-  padding: 60px 10% 40px 10%;
+  padding: 60px 0% 60px 0%;
   background: #c93438b0;
   /* background: transparent url("../i/main-light-blue-bg.png") top left repeat; */
   font-family: "AvenirNextLTPro-Regular", Helvetica, Arial, sans-serif;
@@ -1433,11 +1430,29 @@ footer {
   color: #ffffff;
 }
 
+.copyright-final {
+  background: #000000d1;
+  font-family: "AvenirNextLTPro-Medium", Helvetica, Arial, sans-serif;
+  display: flex;
+  padding: 10px 10%;
+  width: 80%;
+  flex-direction: column;
+}
+.copyright-final p {
+  font-size: 0.9em;
+  transition: all 0.3s ease-in-out;
+  line-height: 18px;
+  display: inline-block;
+  color: #d61818c2;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
 .copyright {
   background: #000000d1;
   font-family: "AvenirNextLTPro-Medium", Helvetica, Arial, sans-serif;
   display: flex;
-  padding: 15px 20%;
+  padding: 100px 10%;
   width: 80%;
   flex-direction: column;
 }
@@ -1451,13 +1466,24 @@ footer {
 }
 
 .copyright p {
-  font-size: 0.9em;
+  font-size: 1.1em;
   transition: all 0.3s ease-in-out;
-  line-height: 20px;
+  line-height: 28px;
   display: inline-block;
-  color: #d61818c2;
+  color: #ffffff;
   text-align: center;
   margin-bottom: 5px;
+}
+
+.copyright h4 {
+  font-size: 1.1em;
+  transition: all 0.3s ease-in-out;
+  line-height: 28px;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 20px;
 }
 
 .copyright p:hover {
@@ -1465,11 +1491,11 @@ footer {
 }
 
 .copyright a {
-  font-size: 0.9em;
+  font-size: 1.1em;
   transition: all 0.3s ease-in-out;
-  line-height: 20px;
+  line-height: 28px;
   display: inline-block;
-  color: #d61818c2;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
 }
@@ -1706,6 +1732,11 @@ footer {
     width: 90%;
     padding: 26px 5% 8px 5%;
   }
+
+  .copyright-final {
+    width: 90%;
+    padding: 26px 5% 8px 5%;
+  }
 }
 @media only screen and (max-width: 280px) {
   section.main header img {
@@ -1823,6 +1854,11 @@ footer {
   }
 
   .copyright {
+    width: 80%;
+    padding: 26px 10% 8px 10%;
+  }
+
+  .copyright-final {
     width: 80%;
     padding: 26px 10% 8px 10%;
   }
