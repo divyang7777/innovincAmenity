@@ -226,16 +226,17 @@ p {
   border-radius: 20px;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
+  line-height: 1em;
 }
 
 .services p:hover {
-  transform: translate3d(0px, -5px, 0px);
-  color: #d61818;
-  background-color: #ffffff;
+  /* transform: translate3d(0px, -5px, 0px); */
+  color: #ffffff;
+  /* background-color: #ffffff; */
   padding: 10px 20px;
   display: inline-block;
-  border-radius: 10px;
-  text-transform: uppercase;
+  /* border-radius: 10px; */
+  /* text-transform: uppercase; */
 }
 
 .more .button {
@@ -262,7 +263,7 @@ p {
 
 section.main {
   /* d61818 */
-  width: 80%;
+  width: 100%;
   padding: 0 10%;
   background: #000000c7;
   /* background: transparent url("../i/grey-bg.png") top left repeat; */
@@ -320,7 +321,7 @@ section.main .col-even .logo-stat a:active {
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/logoStat.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 200%;
 }
 section.main .col .logo-stat a .caption,
 section.main .col .logo-stat a:link .caption,
@@ -336,7 +337,7 @@ section.main .col .logo-stat a:hover,
 section.main .col-even .logo-stat a:hover {
   transform: translate3d(0px, -15px, 0px);
   background: transparent url("../img/mainPage/logoStat.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 180%;
 }
 section.main .col .logo-stat a:hover .caption,
 section.main .col-even .logo-stat a:hover .caption {
@@ -352,7 +353,7 @@ section.main .col-even .hord a:active {
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/hord.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 200%;
 }
 section.main .col .hord a .caption,
 section.main .col .hord a:link .caption,
@@ -368,7 +369,7 @@ section.main .col .hord a:hover,
 section.main .col-even .hord a:hover {
   transform: translate3d(0px, -15px, 0px);
   background: transparent url("../img/mainPage/hord.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 180%;
 }
 section.main .col .hord a:hover .caption,
 section.main .col-even .hord a:hover .caption {
@@ -384,7 +385,7 @@ section.main .col-even .catlg a:active {
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/catlg.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 200%;
 }
 section.main .col .catlg a .caption,
 section.main .col .catlg a:link .caption,
@@ -400,7 +401,7 @@ section.main .col .catlg a:hover,
 section.main .col-even .catlg a:hover {
   transform: translate3d(0px, -15px, 0px);
   background: transparent url("../img/mainPage/catlg.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 180%;
 }
 section.main .col .catlg a:hover .caption,
 section.main .col-even .catlg a:hover .caption {
@@ -416,7 +417,7 @@ section.main .col-even .pak-lab a:active {
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/packLab.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 200%;
 }
 section.main .col .pak-lab a .caption,
 section.main .col .pak-lab a:link .caption,
@@ -432,7 +433,7 @@ section.main .col .pak-lab a:hover,
 section.main .col-even .pak-lab a:hover {
   transform: translate3d(0px, -15px, 0px);
   background: transparent url("../img/mainPage/packLab.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 180%;
 }
 section.main .col .pak-lab a:hover .caption,
 section.main .col-even .pak-lab a:hover .caption {
@@ -448,7 +449,7 @@ section.main .col-even .soc-mark-post a:active {
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/social.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 200%;
 }
 section.main .col .soc-mark-post a .caption,
 section.main .col .soc-mark-post a:link .caption,
@@ -464,7 +465,7 @@ section.main .col .soc-mark-post a:hover,
 section.main .col-even .soc-mark-post a:hover {
   transform: translate3d(0px, -15px, 0px);
   background: transparent url("../img/mainPage/social.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 180%;
 }
 section.main .col .soc-mark-post a:hover .caption,
 section.main .col-even .soc-mark-post a:hover .caption {
@@ -480,7 +481,7 @@ section.main .col-even .comp-port-newlatt a:active {
   border-radius: 30px;
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/comp-newlatt") top left no-repeat;
-  background-size: 100%;
+  background-size: 200%;
 }
 section.main .col .comp-port-newlatt a .caption,
 section.main .col .comp-port-newlatt a:link .caption,
@@ -496,7 +497,7 @@ section.main .col .comp-port-newlatt a:hover,
 section.main .col-even .comp-port-newlatt a:hover {
   transform: translate3d(0px, -15px, 0px);
   background: transparent url("../img/mainPage/comp-newlatt") top left no-repeat;
-  background-size: 100%;
+  background-size: 180%;
 }
 section.main .col .comp-port-newlatt a:hover .caption,
 section.main .col-even .comp-port-newlatt a:hover .caption {
@@ -513,7 +514,7 @@ section.main .col-even .bro-lef-post a:active {
   transition: all 0.3s ease-in-out;
   background: transparent url("../img/mainPage/broLefPost.jpg") top left
     no-repeat;
-  background-size: 100%;
+  background-size: 200%;
 }
 section.main .col .bro-lef-post a .caption,
 section.main .col .bro-lef-post a:link .caption,
@@ -530,7 +531,7 @@ section.main .col-even .bro-lef-post a:hover {
   transform: translate3d(0px, -15px, 0px);
   background: transparent url("../img/mainPage/broLefPost.jpg") top left
     no-repeat;
-  background-size: 100%;
+  background-size: 180%;
 }
 section.main .col .bro-lef-post a:hover .caption,
 section.main .col-even .bro-lef-post a:hover .caption {
@@ -543,7 +544,7 @@ section.main .col-even .tn-mi a,
 section.main .col-even .tn-mi a:link,
 section.main .col-even .tn-mi a:active {
   background: transparent url("../i/tn-mi1.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 200%;
 }
 section.main .col .tn-mi a .caption,
 section.main .col .tn-mi a:link .caption,
@@ -556,7 +557,7 @@ section.main .col-even .tn-mi a:active .caption {
 section.main .col .tn-mi a:hover,
 section.main .col-even .tn-mi a:hover {
   background: transparent url("../i/tn-mi2.jpg") top left no-repeat;
-  background-size: 100%;
+  background-size: 180%;
 }
 section.main .col .tn-mi a:hover .caption,
 section.main .col-even .tn-mi a:hover .caption {
@@ -1398,33 +1399,33 @@ section.main .col-even {
 
 footer {
   clear: both;
-  width: 66%;
-  padding: 80px 17% 40px 17%;
+  width: 100%;
+  padding: 60px 10% 40px 10%;
   background: #c93438b0;
   /* background: transparent url("../i/main-light-blue-bg.png") top left repeat; */
   font-family: "AvenirNextLTPro-Regular", Helvetica, Arial, sans-serif;
   color: #051421;
   text-align: center;
 }
-footer a,
-footer a:link,
-footer a:active {
-  font-family: "AvenirNextLTPro-Medium", Helvetica, Arial, sans-serif;
+
+.contact-details a:hover {
   transition: all 0.3s ease-in-out;
-  color: #000000d1;
-  text-decoration: none;
-}
-footer a:hover {
-  transition: all 0.3s ease-in-out;
-  transform: translate3d(0px, -15px, 0px);
+  /* transform: translate3d(0px, -15px, 0px); */
   /* font-size: 1.3em; */
   color: #ffffff;
 }
-footer .social {
-  font-size: 2.4em;
+.contact-details .social {
+  font-size: 25px;
 }
-footer .social a {
+.contact-details .social a {
   margin-right: 4px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
 }
 
 .subpage footer {
@@ -1436,7 +1437,8 @@ footer .social a {
   background: #000000d1;
   font-family: "AvenirNextLTPro-Medium", Helvetica, Arial, sans-serif;
   display: flex;
-  padding: 15px 210px;
+  padding: 15px 20%;
+  width: 80%;
   flex-direction: column;
 }
 
@@ -1451,28 +1453,27 @@ footer .social a {
 .copyright p {
   font-size: 0.9em;
   transition: all 0.3s ease-in-out;
-  line-height: 1em;
+  line-height: 20px;
   display: inline-block;
   color: #d61818c2;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .copyright p:hover {
-  /* font-size: 1.1em; */
   color: #ffffff;
 }
 
 .copyright a {
   font-size: 0.9em;
   transition: all 0.3s ease-in-out;
-  line-height: 1em;
+  line-height: 20px;
   display: inline-block;
   color: #d61818c2;
   text-align: center;
   text-decoration: none;
 }
 .copyright a:hover {
-  /* font-size: 1.1em; */
   color: #ffffff;
 }
 
@@ -1482,7 +1483,7 @@ footer .social a {
   justify-content: space-between;
 }
 .address {
-  text-align: end !important;
+  text-align: start !important;
 }
 
 @media only screen and (min-width: 1025px) {
