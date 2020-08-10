@@ -274,8 +274,8 @@ section.main header {
   padding: 10% 0 60px 0;
 }
 section.main header img {
-  height: 529px;
-  width: 637px;
+  width: 339px;
+  height: 308px;
 }
 section.main .section {
   clear: both;
@@ -1417,7 +1417,7 @@ footer a:active {
 footer a:hover {
   transition: all 0.3s ease-in-out;
   transform: translate3d(0px, -15px, 0px);
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
   color: #ffffff;
 }
 footer .social {
@@ -1439,6 +1439,15 @@ footer .social a {
   padding: 15px 210px;
   flex-direction: column;
 }
+
+.copyright span {
+  font-size: 0.9em;
+  line-height: 1em;
+  display: inline-block;
+  color: #d61818c2;
+  text-align: center;
+}
+
 .copyright p {
   font-size: 0.9em;
   transition: all 0.3s ease-in-out;
@@ -1447,9 +1456,33 @@ footer .social a {
   color: #d61818c2;
   text-align: center;
 }
+
 .copyright p:hover {
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
   color: #ffffff;
+}
+
+.copyright a {
+  font-size: 0.9em;
+  transition: all 0.3s ease-in-out;
+  line-height: 1em;
+  display: inline-block;
+  color: #d61818c2;
+  text-align: center;
+  text-decoration: none;
+}
+.copyright a:hover {
+  /* font-size: 1.1em; */
+  color: #ffffff;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.address {
+  text-align: end !important;
 }
 
 @media only screen and (min-width: 1025px) {
@@ -1532,8 +1565,8 @@ footer .social a {
   }
 
   section.main header img {
-    height: 229px;
-    width: 290px;
+    width: 140px;
+    height: 115px;
   }
 
   .subpage .top a,
@@ -1675,8 +1708,8 @@ footer .social a {
 }
 @media only screen and (max-width: 280px) {
   section.main header img {
-    height: 210px;
-    width: 250px;
+    width: 140px;
+    height: 115px;
   }
 }
 
@@ -1686,8 +1719,8 @@ footer .social a {
   }
 
   section.main header img {
-    height: 329px;
-    width: 437px;
+    width: 239px;
+    height: 208px;
   }
 
   h1,
