@@ -222,7 +222,7 @@ p {
 }
 .services p {
   color: #ffffff; 
-  background-color: #000000ad;
+  /* background-color: #000000ad; */
   padding: 20px 25px;
     display: inline-block;
     border-radius: 20px;
@@ -1398,7 +1398,7 @@ footer {
   clear: both;
   width: 100%;
   padding: 60px 0% 60px 0%;
-  background: #c93438b0;
+  background: #c93438d9;
   /* background: transparent url("../i/main-light-blue-bg.png") top left repeat; */
   font-family: "AvenirNextLTPro-Regular", Helvetica, Arial, sans-serif;
   color: #051421;
