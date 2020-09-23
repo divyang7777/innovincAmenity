@@ -317,8 +317,8 @@ section.main .col-even .logo-stat a:link,
 section.main .col-even .logo-stat a:active {
   border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
-  background: transparent url("../img/mainPage/logoStat.jpg") top left no-repeat;
-  background-size: 200%;
+  background: transparent url("../img/TitleScreen/01Logo_Stationary.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .logo-stat a .caption,
 section.main .col .logo-stat a:link .caption,
@@ -333,8 +333,8 @@ section.main .col-even .logo-stat a:active .caption {
 section.main .col .logo-stat a:hover,
 section.main .col-even .logo-stat a:hover {
   transform: translate3d(0px, -15px, 0px);
-  background: transparent url("../img/mainPage/logoStat.jpg") top left no-repeat;
-  background-size: 180%;
+  background: transparent url("../img/TitleScreen/02Logo_Stationary.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .logo-stat a:hover .caption,
 section.main .col-even .logo-stat a:hover .caption {
@@ -349,8 +349,8 @@ section.main .col-even .hord a:link,
 section.main .col-even .hord a:active {
   border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
-  background: transparent url("../img/mainPage/hord.jpg") top left no-repeat;
-  background-size: 200%;
+  background: transparent url("../img/TitleScreen/05Hoardings.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .hord a .caption,
 section.main .col .hord a:link .caption,
@@ -365,8 +365,8 @@ section.main .col-even .hord a:active .caption {
 section.main .col .hord a:hover,
 section.main .col-even .hord a:hover {
   transform: translate3d(0px, -15px, 0px);
-  background: transparent url("../img/mainPage/hord.jpg") top left no-repeat;
-  background-size: 180%;
+  background: transparent url("../img/TitleScreen/06Hoardings.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .hord a:hover .caption,
 section.main .col-even .hord a:hover .caption {
@@ -381,8 +381,8 @@ section.main .col-even .catlg a:link,
 section.main .col-even .catlg a:active {
   border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
-  background: transparent url("../img/mainPage/catlg.jpg") top left no-repeat;
-  background-size: 200%;
+  background: transparent url("../img/TitleScreen/07Catalouge.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .catlg a .caption,
 section.main .col .catlg a:link .caption,
@@ -397,8 +397,8 @@ section.main .col-even .catlg a:active .caption {
 section.main .col .catlg a:hover,
 section.main .col-even .catlg a:hover {
   transform: translate3d(0px, -15px, 0px);
-  background: transparent url("../img/mainPage/catlg.jpg") top left no-repeat;
-  background-size: 180%;
+  background: transparent url("../img/TitleScreen/08Catalouge.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .catlg a:hover .caption,
 section.main .col-even .catlg a:hover .caption {
@@ -413,8 +413,8 @@ section.main .col-even .pak-lab a:link,
 section.main .col-even .pak-lab a:active {
   border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
-  background: transparent url("../img/mainPage/packLab.jpg") top left no-repeat;
-  background-size: 200%;
+  background: transparent url("../img/TitleScreen/09Packaging.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .pak-lab a .caption,
 section.main .col .pak-lab a:link .caption,
@@ -429,8 +429,8 @@ section.main .col-even .pak-lab a:active .caption {
 section.main .col .pak-lab a:hover,
 section.main .col-even .pak-lab a:hover {
   transform: translate3d(0px, -15px, 0px);
-  background: transparent url("../img/mainPage/packLab.jpg") top left no-repeat;
-  background-size: 180%;
+  background: transparent url("../img/TitleScreen/10Packaging.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .pak-lab a:hover .caption,
 section.main .col-even .pak-lab a:hover .caption {
@@ -445,8 +445,8 @@ section.main .col-even .soc-mark-post a:link,
 section.main .col-even .soc-mark-post a:active {
   border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
-  background: transparent url("../img/mainPage/social.jpg") top left no-repeat;
-  background-size: 200%;
+  background: transparent url("../img/TitleScreen/11SocialMedia.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .soc-mark-post a .caption,
 section.main .col .soc-mark-post a:link .caption,
@@ -461,8 +461,8 @@ section.main .col-even .soc-mark-post a:active .caption {
 section.main .col .soc-mark-post a:hover,
 section.main .col-even .soc-mark-post a:hover {
   transform: translate3d(0px, -15px, 0px);
-  background: transparent url("../img/mainPage/social.jpg") top left no-repeat;
-  background-size: 180%;
+  background: transparent url("../img/TitleScreen/12SocialMedia.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .soc-mark-post a:hover .caption,
 section.main .col-even .soc-mark-post a:hover .caption {
@@ -477,8 +477,8 @@ section.main .col-even .comp-port-newlatt a:link,
 section.main .col-even .comp-port-newlatt a:active {
   border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
-  background: transparent url("../img/mainPage/comp-newlatt") top left no-repeat;
-  background-size: 200%;
+  background: transparent url("../img/TitleScreen/13CompanyProfile.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .comp-port-newlatt a .caption,
 section.main .col .comp-port-newlatt a:link .caption,
@@ -493,8 +493,8 @@ section.main .col-even .comp-port-newlatt a:active .caption {
 section.main .col .comp-port-newlatt a:hover,
 section.main .col-even .comp-port-newlatt a:hover {
   transform: translate3d(0px, -15px, 0px);
-  background: transparent url("../img/mainPage/comp-newlatt") top left no-repeat;
-  background-size: 180%;
+  background: transparent url("../img/TitleScreen/14CompanyProfile.jpg") top left no-repeat;
+  background-size: 100%;
 }
 section.main .col .comp-port-newlatt a:hover .caption,
 section.main .col-even .comp-port-newlatt a:hover .caption {
@@ -509,9 +509,9 @@ section.main .col-even .bro-lef-post a:link,
 section.main .col-even .bro-lef-post a:active {
   border-radius: 0 30px;
   transition: all 0.3s ease-in-out;
-  background: transparent url("../img/mainPage/broLefPost.jpg") top left
+  background: transparent url("../img/TitleScreen/03Brochure.jpg") top left
     no-repeat;
-  background-size: 200%;
+  background-size: 100%;
 }
 section.main .col .bro-lef-post a .caption,
 section.main .col .bro-lef-post a:link .caption,
@@ -526,9 +526,9 @@ section.main .col-even .bro-lef-post a:active .caption {
 section.main .col .bro-lef-post a:hover,
 section.main .col-even .bro-lef-post a:hover {
   transform: translate3d(0px, -15px, 0px);
-  background: transparent url("../img/mainPage/broLefPost.jpg") top left
+  background: transparent url("../img/TitleScreen/04Brochure.jpg") top left
     no-repeat;
-  background-size: 180%;
+  background-size: 100%;
 }
 section.main .col .bro-lef-post a:hover .caption,
 section.main .col-even .bro-lef-post a:hover .caption {
@@ -541,7 +541,7 @@ section.main .col-even .tn-mi a,
 section.main .col-even .tn-mi a:link,
 section.main .col-even .tn-mi a:active {
   background: transparent url("../i/tn-mi1.jpg") top left no-repeat;
-  background-size: 200%;
+  background-size: 100%;
 }
 section.main .col .tn-mi a .caption,
 section.main .col .tn-mi a:link .caption,
@@ -554,7 +554,7 @@ section.main .col-even .tn-mi a:active .caption {
 section.main .col .tn-mi a:hover,
 section.main .col-even .tn-mi a:hover {
   background: transparent url("../i/tn-mi2.jpg") top left no-repeat;
-  background-size: 180%;
+  background-size: 100%;
 }
 section.main .col .tn-mi a:hover .caption,
 section.main .col-even .tn-mi a:hover .caption {
